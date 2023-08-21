@@ -5,8 +5,8 @@ import openai
 from api_key import api_key
 
 openai.api_key = api_key
-mindsets_queue = deque([[SYSTEM_CFG["initial_promt"], 4], 
-                            [SYSTEM_CFG['building_relationships_promt'], 8],
+mindsets_queue = deque([[SYSTEM_CFG["initial_promt"], 11], 
+                            [SYSTEM_CFG['building_relationships_promt'], 31],
                             [SYSTEM_CFG['in_relationship_promt'], None]
                        ]
                       )
